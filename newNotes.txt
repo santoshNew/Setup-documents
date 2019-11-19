@@ -1,1 +1,29 @@
 this is just a note to check the git pull/push/commit with same user but different machine.
+
+
+
+Below are the few usefull resource which will help you the guide for setup.
+
+https://stackoverflow.com/questions/20151088/git-same-user-different-machine-clone.
+
+To check current username and email, run follwoing command.
+
+git config user.name
+// it will return you current username - SaxxxxxB
+
+git config user.email
+// will return current email - sanxxxxx@xxx.com
+
+// For setting username and email run below command without double cote.
+git config --global user.name "username"
+git config --global user.email "email"
+
+Once that done, clone the project,
+git clone url
+// url should be in https://github.com/username/project-name.git
+
+like: https://github.com/santoshNew/Setup-documents.git
+
+// Install react-native-dev-tool for browser debugger
+https://codeburst.io/redux-devtools-for-dummies-74566c597d7
+
